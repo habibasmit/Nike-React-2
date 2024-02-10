@@ -1,0 +1,676 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 62.5%;
+        }
+        
+        body {
+            background-color: rgba(150, 149, 149, 0.25);
+        }
+        
+        .header {
+            position: relative;
+            top: 0px;
+            width: 100%;
+        }
+        
+        .navbar {
+            border: 2px solid black;
+            width: 100%;
+            height: 60px;
+            background-color: rgb(255, 249, 244);
+            position: fixed;
+            top: 0%;
+            z-index: 1;
+        }
+        
+        .navbar .logo {
+            margin-left: 20rem;
+            margin-top: 5px;
+        }
+        
+        .navbar .logo .logo-text {
+            display: inline-block;
+        }
+        
+        .logo-text h2 {
+            display: inline-block;
+            font-size: 25px;
+            margin-top: 8px;
+            letter-spacing: 2px;
+            margin-left: 5px;
+        }
+        
+        .logo .logo-text .text-nike {
+            font-weight: 900;
+            color: coral;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .logo .logo-text .text-react {
+            font-weight: 400;
+            color: black;
+        }
+        
+        .logo img {
+            width: 4%;
+            height: 20px;
+            margin-right: 5px;
+        }
+        
+        .navbar .nav-menu ul {
+            display: inline-block;
+            position: absolute;
+            top: 15px;
+            right: 100px;
+        }
+        
+        .nav-menu ul li {
+            display: inline-block;
+            padding-left: 20px;
+        }
+        
+        .nav-menu ul li a {
+            font-size: 22px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .nav-menu ul li a:hover {
+            background-color: rgba(255, 127, 80, 0.57);
+            color: white;
+            border-radius: 30px;
+            padding: 5px;
+        }
+        /* ######### NAVIGATION BAR END ############### */
+        /* ########### HEADER CONTENT START ############# */
+        
+        .header-content {
+            width: 100%;
+            height: 600px;
+            position: relative;
+            top: 100px;
+            background-color: rgb(255, 249, 244);
+        }
+        
+        .header-content .image {
+            display: inline-block;
+            width: 55%;
+            position: relative;
+            top: 10%;
+        }
+        
+        .header-content .image img {
+            width: 60%;
+            height: 60%;
+            position: relative;
+            left: 35%;
+        }
+        
+        .header-content .image-content {
+            display: inline-block;
+            width: 29%;
+            position: relative;
+            top: -5%;
+            left: 2%;
+        }
+        
+        .header-content .image-content h1 {
+            font-size: 60px;
+            margin-top: 15px;
+        }
+        
+        .image-content .text-nike-react {
+            color: coral;
+            font-weight: 900;
+        }
+        
+        .image-content .text-infinity {
+            color: rgba(0, 0, 0, 0.316);
+            font-weight: 900;
+        }
+        
+        .header-content .image-content p {
+            font-size: 20px;
+            color: gray;
+            margin-bottom: 15px;
+        }
+        
+        .button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+        }
+        /* ###### HEADER END ######## */
+        /* ####### MAIN START ####### */
+        
+        main {
+            width: 90%;
+            height: 900px;
+            position: relative;
+            padding-top: 8%;
+        }
+        
+        main h1 {
+            font-size: 3rem;
+            font-family: sans-serif;
+            position: relative;
+            top: 50px;
+            left: 10%;
+        }
+        
+        main .casual-shoes .box1 {
+            width: 25%;
+            height: 450px;
+            border: 2px solid black;
+            position: relative;
+            top: 50px;
+            left: 10%;
+            background-color: white;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        .casual-shoes .box1 img {
+            width: 100%;
+            height: 65%;
+            border-radius: 20px;
+            padding: 2%;
+        }
+        
+        .casual-shoes .box1 h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .casual-shoes .box1 p {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .casual-shoes .box1 h3 {
+            font-size: 20px;
+            color: coral;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .casual-shoes .box1 .button-box {
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+            position: relative;
+            left: 68%;
+            top: -30px;
+        }
+        
+        main .casual-shoes .box2 {
+            width: 25%;
+            height: 450px;
+            border: 2px solid black;
+            position: relative;
+            top: 50px;
+            left: 13%;
+            background-color: white;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        .casual-shoes .box2 img {
+            width: 100%;
+            height: 65%;
+            border-radius: 20px;
+            padding: 2%;
+        }
+        
+        .casual-shoes .box2 h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .casual-shoes .box2 p {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .casual-shoes .box2 h3 {
+            font-size: 20px;
+            color: coral;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .casual-shoes .box2 .button-box {
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+            position: relative;
+            left: 68%;
+            top: -30px;
+        }
+        
+        main .casual-shoes .box3 {
+            width: 25%;
+            height: 450px;
+            border: 2px solid black;
+            position: relative;
+            top: 50px;
+            left: 16%;
+            background-color: white;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        .casual-shoes .box3 img {
+            width: 100%;
+            height: 65%;
+            border-radius: 20px;
+            padding: 2%;
+        }
+        
+        .casual-shoes .box3 h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .casual-shoes .box3 p {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .casual-shoes .box3 h3 {
+            font-size: 20px;
+            color: coral;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .casual-shoes .box3 .button-box {
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+            position: relative;
+            left: 68%;
+            top: -30px;
+        }
+        
+        main .formal-category {
+            font-size: 3rem;
+            font-family: sans-serif;
+            position: relative;
+            top: 100px;
+            left: 10%;
+        }
+        
+        .casual-shoes .box2 h3 {
+            font-size: 20px;
+            color: coral;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .casual-shoes .box2 .button-box {
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+            position: relative;
+            left: 68%;
+            top: -30px;
+        }
+        
+        main .formal-shoes .box4 {
+            width: 25%;
+            height: 450px;
+            border: 2px solid black;
+            position: relative;
+            top: 105px;
+            left: 10%;
+            background-color: white;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        .formal-shoes .box4 img {
+            width: 100%;
+            height: 65%;
+            border-radius: 20px;
+            padding: 2%;
+        }
+        
+        .formal-shoes .box4 h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .formal-shoes .box4 p {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .formal-shoes .box4 h3 {
+            font-size: 20px;
+            color: coral;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .formal-shoes .box4 .button-box {
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+            position: relative;
+            left: 68%;
+            top: -30px;
+        }
+        
+        main .formal-shoes .box5 {
+            width: 25%;
+            height: 450px;
+            border: 2px solid black;
+            position: relative;
+            top: 105px;
+            left: 13%;
+            background-color: white;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        .formal-shoes .box5 img {
+            width: 100%;
+            height: 65%;
+            border-radius: 20px;
+            padding: 2%;
+        }
+        
+        .formal-shoes .box5 h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .formal-shoes .box5 p {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .formal-shoes .box5 h3 {
+            font-size: 20px;
+            color: coral;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .formal-shoes .box5 .button-box {
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+            position: relative;
+            left: 68%;
+            top: -30px;
+        }
+        
+        main .formal-shoes .box6 {
+            width: 25%;
+            height: 450px;
+            border: 2px solid black;
+            position: relative;
+            top: 105px;
+            left: 16%;
+            background-color: white;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        .formal-shoes .box6 img {
+            width: 100%;
+            height: 65%;
+            border-radius: 20px;
+            padding: 2%;
+        }
+        
+        .formal-shoes .box6 h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            margin-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .formal-shoes .box6 p {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .formal-shoes .box6 h3 {
+            font-size: 20px;
+            color: coral;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        
+        .formal-shoes .box6 .button-box {
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: #3d4ff3;
+            position: relative;
+            left: 68%;
+            top: -30px;
+        }
+        /* images complete */
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: 9%;
+            margin-top: 15%;
+        }
+        
+        .section .image-1 {
+            width: 40%;
+            height: 10%;
+            padding: 3%;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 3px solid rgba(0, 0, 0, 0.296);
+            margin-bottom: 2%;
+            position: relative;
+        }
+        
+        .image-1 img {
+            height: 8%;
+            width: 15%;
+        }
+        
+        .section .image-2 {
+            width: 40%;
+            height: 10%;
+            padding: 3%;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 3px solid rgba(0, 0, 0, 0.296);
+            margin-bottom: 2%;
+            position: relative;
+        }
+        
+        .image-2 img {
+            height: 8%;
+            width: 15%;
+        }
+        
+        .section .image-3 {
+            width: 40%;
+            height: 10%;
+            padding: 3%;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 3px solid rgba(0, 0, 0, 0.296);
+            position: relative;
+        }
+        
+        .image-3 img {
+            height: 8%;
+            width: 15%;
+        }
+        
+        .image-content {
+            font-size: 30px;
+            width: 55%;
+            position: absolute;
+            left: 20rem;
+            bottom: 20%;
+        }
+        
+        .image-content h1 {
+            font-size: 25px;
+        }
+        
+        .main-image {
+            margin-left: 490px;
+            position: absolute;
+            padding: 50px;
+            left: 15%;
+        }
+        
+        .main-image img {
+            width: 95%;
+            height: 48%;
+        }
+        /* SECTION ONE COMPLETE */
+        
+        .section-2 {
+            position: relative;
+            height: 350px;
+        }
+        
+        .search-bar {
+            width: 930px;
+            height: 184.797px;
+            border-radius: 10px;
+            border: 3px solid rgba(0, 0, 0, 0.296);
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            left: 9%;
+            margin-top: 5%;
+        }
+        
+        .search-bar h1 {
+            margin-top: 2%;
+            font-size: 25px;
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.686);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        
+        .search-bar input {
+            width: 700px;
+            height: 38px;
+            position: absolute;
+            bottom: 30%;
+            left: 8%;
+            font-size: 20px;
+        }
+        
+        .search-bar a {
+            /* width: 70px;
+            height: 90%; */
+            padding: 6px;
+            border: 2px solid black;
+            color: white;
+            background-color: #3d4ff3;
+            font-size: 20px;
+            text-decoration: none;
+            position: absolute;
+            top: 86px;
+            right: 57px;
+        }
+        
+        .footer {
+            width: 100%;
+            height: 300px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        .footer-items {
+            height: 50px;
+            margin-top: 3%;
+            padding: 1%;
+            text-align: left;
+        }
+        
+        .footer-items h1 {
+            font-size: 30px;
+        }
+        
+        .footer-items li {
+            list-style-type: none;
+            padding-top: 3%;
+        }
+        
+        .footer-items li a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.805);
+            font-size: 20px;
+        }
+        
+        .footer {
+            position: relative;
+        }
+        
+        .footer-end {
+            position: absolute;
+            bottom: 30px;
+            right: 40%;
+        }
+        
+        .footer-end p {
+            font-size: 20px;
+        }
+        
+        .footer-end p span {
+            color: coral;
+            font-size: 20px;
+        }
